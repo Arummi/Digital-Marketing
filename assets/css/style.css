@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --mainColor : #0F345E;
+    --secondaryColor : #1089C0;
+    --acsentColor : #FFA110;
+    --fontColor : #FFFFFF;
+    --black : #000000; 
+}
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'poppins';
+    color : var(--fontColor);
+    padding: 20px 0 0 0;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-header p {
+    margin-right: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .m-header {
+    margin-right: 12px;
+}
+
+/* navbar */
+.navbar {
+    background-color: var(--secondaryColor);
+    padding: 16px 0;
+  }
+  
+  .nav-link {
+    color: var(--fontColor);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 8px;
+  }
+  
+  .nav-link:hover {
+    color: var(--acsentColor);
+  }
+  
+  .navbar-nav .btn-outline-light {
+    margin-left: 64px;
+    margin-right: 16px;
+  }
+  
+  .btn {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 12px 54px;
+  }
+  
+  .btn-primary {
+    background-color: var(--acsentColor) !important;
+    border: none;
+  }
+  
+  /* page */
+  #page {
+    width: 100%;
+    height: 684px;
+    background: linear-gradient(
+        180deg,
+        #0f345e 0%,
+        rgba(15, 52, 94, 0.762499) 45.19%,
+        rgba(15, 52, 94, 0.385545) 76.64%,
+        rgba(15, 52, 94, 0) 105.34%
+      ),
+    url(../img/background.jpeg)no-repeat center fixed, #ffffff;
+    background-size: cover;
+
+    }
+  
+  .text-lg-jumbo {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    color: var(--fontColor);
+    margin-bottom: 16px;
+    margin-top: 146px;
+  }
+  
+  .text-sm-jumbo {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--fontColor);
+    margin-bottom: 68px;
+  }
+  
+  .btn-jumbo {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    padding: 15px 25px;
+}
+
+/*digitalmarketing*/
+  .digitalmarketing {
+    background-color: var(--mainColor);
+    padding: 74px;
+  }
+
+  .title-section {
+    font-family: "Poppins";
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 120%;
+
+  text-align: center;
+
+  color: var(--fontColor);
+}
+
+.text-digital-marketing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: var(--fontColor);
+  opacity: 0.8;
+  margin-top: 44px;
+}
+
+/*pelatihan*/
+  .pelatihan {
+    background-color: var(--fontColor);
+    padding: 100px;
+  }
+
+  .title {
+    font-family: "Poppins";
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 120%;
+    margin-bottom: 115px;
+
+  text-align: center;
+
+  color: var(--mainColor);
+}
+
+/*benefit*/
+.benefit {
+  margin-top: 155px;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #434343;
+
+  opacity: 0.8;
+}
+
+/*materi*/
+.text-materi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  color: #434343;
+
+  opacity: 0.6;
+}
+
+.text-nmr-materi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  color: var(--black);
+
+  opacity: 0.3;
+}
+
+.text-title-materi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--mainColor);
+}
+
+.btn-collapse {
+  color: var(--black);
+}
+
+.text-card-collapse {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+
+  color: #434343;
+
+  opacity: 0.6;
+}
+
+.card-collapse {
+  border-bottom: 1px solid #434343;
+  margin-bottom: 32px;
+}
+
